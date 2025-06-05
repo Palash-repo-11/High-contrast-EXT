@@ -1,0 +1,72 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    width: 300px;
+    height: auto;
+    box-sizing: border-box;
+  }
+  
+  .popup-wrapper {
+    padding: 16px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+  }
+  
+  .popup-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .popup-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+  }
+  
+  .popup-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333333;
+  }
+  
+  .popup-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .popup-label {
+    font-size: 14px;
+    color: #666666;
+    margin: 0;
+  }
+  
+  .popup-domain {
+    font-size: 16px;
+    font-weight: 500;
+    color: #222;
+    word-break: break-all;
+  }
+  
+  .popup-button {
+    margin-top: 12px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .popup-button:hover {
+    background-color: #005ea2;
+  }
+  
